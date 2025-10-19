@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=HerokuApp%20Automation%20Tests&fontSize=40&fontAlignY=35&animation=fadeIn&fontColor=fff"/>
+</p>
 # 🧪 HerokuApp Automation Tests
 
 Automated **UI testing suite** built with **Java**, **Selenium WebDriver**, **JUnit 5**, and **Maven**, targeting [the-internet.herokuapp.com](https://the-internet.herokuapp.com).  
@@ -28,6 +31,7 @@ automation/
  │       └── java/
  │           └── tests/
  │               ├── AddRemoveElementsTest.java
+ |               ├── BrokenImagesTest.java
  │               ├── CheckBoxesTest.java
  │               ├── DisappearingElementsTest.java
  │               ├── DragAndDropTest.java
@@ -38,17 +42,19 @@ automation/
  │               ├── KeyPressesTest.java
  │               └── RightClickContextTest.java
  └── .mvn/
-
+```
 ---
 
 ## ▶️ How to Run Tests
 
 **Run from IntelliJ IDEA**
-- Right-click on a test class → **Run 'ClassName'**
+- Right-click on a test class → **Run 'ClassName'** / **Shift+F10**
 
 **Run from terminal**
-'''bash
+```bash
 mvn clean test
+```
+---
 
 ## 🧠 Included Test Cases
 - Add/Remove Elements [https://the-internet.herokuapp.com/add_remove_elements/]
@@ -61,12 +67,40 @@ mvn clean test
 - Hover [https://the-internet.herokuapp.com/hovers]
 - Inputs [https://the-internet.herokuapp.com/inputs]
 - Key Presses [https://the-internet.herokuapp.com/key_presses] 
-- Right Click Context Menuv [https://the-internet.herokuapp.com/context_menu]
+- Right Click Context Menu [https://the-internet.herokuapp.com/context_menu]
+
+---
+
+## 📸 Screenshots
+Example of successful test execution in AddRemoveElements.Test:
+<p align="center">
+ <img width="363" height="294" alt="image" src="https://github.com/user-attachments/assets/87ca2a11-9900-4078-bf82-35c27596c61b" />
+</p>
+Example of succesful test execution in Inputs.Test:
+<p align="center">
+  <img width="363" height="294" alt="image" src="https://github.com/user-attachments/assets/3bb98fac-3dc1-4407-82f3-c688d9135032" />
+</p>
+ 
+---
+
+## 🎥 Demo – Test Execution
+
+<div align="center">
+
+<img src="demoTestExecution.gif" alt="HerokuApp automation test demo" width="80%">
+
+</div>
+
+---
 
 ## 🧾 License
-Distributed under the MIT License
+Distributed under the [MIT License](LICENSE)
+
+---
 
 ## 👤 Author
 Radulescu Vlad Andrei
 📧 GitHub Profile: [https://github.com/VladAndrei25]
 💬 Feel free to reach out for collaboration or feedback!
+
+---
