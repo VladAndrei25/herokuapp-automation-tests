@@ -16,22 +16,28 @@ This project is part of a personal learning effort to improve test automation sk
 ---
 
 ## 🧩 Project Structure
+```text
 automation/
-├── pom.xml
-├── src/
-│ ├── main/java/org/example/Main.java
-│ └── test/java/tests/
-│ ├── AddRemoveElementsTest.java
-│ ├── CheckBoxesTest.java
-│ ├── DragAndDropTest.java
-│ ├── DropDownTest.java
-│ ├── FormAuthenticationTest.java
-│ ├── HoverTest.java
-│ ├── InputsTest.java
-│ ├── KeyPressesTest.java
-│ ├── RightClickContextTest.java
-│ └── ...
-└── .mvn/
+ ├── pom.xml
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/
+ │   │   │   └── org/example/Main.java
+ │   │   └── resources/
+ │   └── test/
+ │       └── java/
+ │           └── tests/
+ │               ├── AddRemoveElementsTest.java
+ │               ├── CheckBoxesTest.java
+ │               ├── DisappearingElementsTest.java
+ │               ├── DragAndDropTest.java
+ │               ├── DropDownTest.java
+ │               ├── FormAuthenticationTest.java
+ │               ├── HoverTest.java
+ │               ├── InputsTest.java
+ │               ├── KeyPressesTest.java
+ │               └── RightClickContextTest.java
+ └── .mvn/
 
 ---
 
