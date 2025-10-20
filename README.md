@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=HerokuApp%20Automation%20Tests&fontSize=40&fontAlignY=35&animation=fadeIn&fontColor=fff"/>
 </p>
+
 # 🧪 HerokuApp Automation Tests
 
 Automated **UI testing suite** built with **Java**, **Selenium WebDriver**, **JUnit 5**, and **Maven**, targeting [the-internet.herokuapp.com](https://the-internet.herokuapp.com).  
