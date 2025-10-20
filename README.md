@@ -16,7 +16,13 @@ This project is part of a personal learning effort to improve test automation sk
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
 ![ChromeDriver](https://img.shields.io/badge/ChromeDriver-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)
 
----
+| Tool / Library | Purpose |
+|----------------|----------|
+| **Java 17** | Programming language |
+| **Maven** | Build automation & dependency management |
+| **JUnit 5** | Test framework |
+| **Selenium** | Browser automation framework |
+| **ChromeDriver** | WebDriver for Google Chrome |
 
 ## 🧩 Project Structure
 ```text
@@ -100,7 +106,9 @@ Distributed under the [MIT License](LICENSE)
 
 ## 👤 Author
 Radulescu Vlad Andrei
+
 📧 GitHub Profile: [https://github.com/VladAndrei25]
+
 💬 Feel free to reach out for collaboration or feedback!
 
 ---
